@@ -1529,7 +1529,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	add_log(True, True, log_options.trace, log_options.system, "Starting...");
+	add_log(True, True, log_options.trace, log_options.system, "Starting router...");
 
 	guint64 last_search = get_date_time();
 
