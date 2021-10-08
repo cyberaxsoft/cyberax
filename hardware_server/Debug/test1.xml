@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<common
+	    server_name = "Тестовый сервер"
+	    port = "12000"
+
+	    log_dir = "/home/mkv/cyberax/logs"
+	    log_enable = "1"
+	    log_trace = "1"
+	    file_size = "10"
+	    save_days = "10"	
+	  
+	    connections_log_dir = "/home/mkv/cyberax/logs/clients"
+	    connections_log_enable = "1"
+	    connections_log_trace = "1"
+	    connections_log_frames = "1"
+	    connections_log_parsing = "1"
+	    connections_log_file_size = "10"
+	    connections_log_save_days = "10"
+	  />
+	
+	<profiles enable = "1">
+
+	  <profile id = "0" name = "Клиент 0" enable = "1" guid = "0000000000000000000000000000000000001" access_level = "0" />
+	  <profile id = "1" name = "Клиент 1" enable = "1" guid = "0000000000000000000000000000000000002" access_level = "0" />
+	  <profile id = "2" name = "Клиент 2" enable = "1" guid = "0000000000000000000000000000000000003" access_level = "0" />
+	</profiles>  
+
+	<devices>
+
+<!--	  <price_pole_controller id = "1" name = "Vds" port = "12205" enable = "1" command_timeout = "2000" interval = "200" module_name = "/cyberax/vds/Debug/libvds.so" log_dir = "/cyberax/logs/devices" log_enable = "1" log_trace = "1" file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/cyberax/logs/vds" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "0" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12210"/>
+	      <timeouts read = "500" write = "500"/>
+	      <decimal_points price_decimal_point = "2"/>
+  
+	      <mapping>
+		<price_pole num = "1" grade = "1" symbol_count = "4"/>
+		<price_pole num = "2" grade = "2" symbol_count = "4"/>
+		<price_pole num = "3" grade = "3" symbol_count = "4"/>
+   	      </mapping>
+
+	    </module_settings>
+	  </price_pole_controller>  -->
+
+
+<!--	  <dispencer_controller id = "1" name = "Dart" port = "12201" enable = "1" command_timeout = "2000" interval = "200" module_name = "/cyberax/dart/Debug/libdart.so" log_dir = "/cyberax/logs/devices" log_enable = "1" log_trace = "1" file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/cyberax/logs/dart" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "0" port = "/dev/lvu_0" ip_address = "127.0.0.1" ip_port = "12210"/>
+	      <timeouts read = "100" write = "100"/>
+	      <decimal_points price_decimal_point = "2" volume_decimal_point = "2" amount_decimal_point = "2"/>
+	      <counters enable = "1"/>
+	      <auto_start enable = "1"/>
+	      <auto_payment enable = "1"/>
+	      <full_tank_volume value = "90000"/>
+  
+	      <mapping>
+		<dispencer num = "1" addr = "17">
+		  <nozzle num = "1" grade = "1"/>
+		  <nozzle num = "2" grade = "2"/>
+		  <nozzle num = "3" grade = "3"/>
+		  <nozzle num = "4" grade = "4"/>
+		</dispencer>
+		
+   	      </mapping>
+	    </module_settings>
+	  </dispencer_controller> -->
+
+
+<!--	  <dispencer_controller id = "2" name = "Tokheim" port = "12202" enable = "1" command_timeout = "2000" interval = "200" module_name = "/cyberax/tokheim/Debug/libtokheim.so" log_dir = "/cyberax/logs/devices" log_enable = "1" log_trace = "1" file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/cyberax/logs/tokheim" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "0" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12210"/>
+	      <timeouts read = "300" write = "300"/>
+	      <decimal_points price_decimal_point = "2" volume_decimal_point = "2" amount_decimal_point = "2"/>
+	      <counters enable = "1"/>
+	      <auto_start enable = "1"/>
+	      <auto_payment enable = "1"/>
+	      <full_tank_volume value = "90000"/>
+  
+	      <mapping>
+		<dispencer num = "3" addr = "2">
+		  <nozzle num = "1" grade = "4"/>
+		</dispencer>
+		
+   	      </mapping>
+	    </module_settings>
+	  </dispencer_controller> --> 
+	 
+	  <dispencer_controller id = "1" name = "Topaz" port = "12203" enable = "1" command_timeout = "2000" interval = "200" module_name = "/home/mkv/cyberax/topaz/Debug/libtopaz.so" log_dir = "/home/mkv/cyberax/logs/devices" log_enable = "1" log_trace = "1" file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/home/mkv/cyberax/logs/topaz" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "1" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12213" uart_speed = "4800" uart_byte_size = "7" uart_parity = "odd" uart_stop_bits = "2"/>
+	      <timeouts read = "200" write = "200"/>
+	      <decimal_points price_decimal_point = "2" volume_decimal_point = "2" amount_decimal_point = "2"/>
+	      <counters enable = "1"/>
+	      <auto_start enable = "1"/>
+	      <auto_payment enable = "1"/>
+	      <full_tank_volume value = "90000"/>
+  
+	      <mapping>
+		<dispencer num = "1" addr = "1">
+		  <nozzle num = "1" grade = "1"/>
+		  <nozzle num = "2" grade = "2"/>
+		  <nozzle num = "3" grade = "3"/>
+		  <nozzle num = "4" grade = "4"/>
+		</dispencer>
+
+		</mapping>
+	    </module_settings>
+	  </dispencer_controller> 
+
+<!--	  <tgs id = "1" name = "TLS" port = "12301" enable = "1" command_timeout = "60000" interval = "4000" module_name = "/cyberax/tls/Debug/libtls.so" log_dir = "/cyberax/logs/tls" log_enable = "1" log_trace = "1"  file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/cyberax/logs/tls" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "1" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12214"/>
+	      <timeouts read = "4000" write = "4000"/>
+  
+	      <mapping>
+		<tank num = "1" channel = "1"/>
+		<tank num = "2" channel = "2"/>
+		<tank num = "3" channel = "3"/>
+		<tank num = "4" channel = "4"/>
+		<tank num = "5" channel = "5"/>
+	      </mapping>
+	    </module_settings>
+	  </tgs>-->
+
+<!--	  <sensor_controller id = "2" name = "IDC" port = "12401" enable = "1" command_timeout = "200" interval = "1000" module_name = "/cyberax/idcsensor/Debug/libidcsensor.so" log_dir = "/cyberax/logs/devices" log_enable = "1" log_trace = "0"  file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/cyberax/logs/idcsensor" trace = "0" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "1" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12212"/>
+	      <timeouts read = "2000" write = "2000"/>
+  
+	      <mapping>
+		<sensor num = "1" addr = "111">
+			<param num = "1" type = "0"/>
+			<param num = "2" type = "0"/>
+		</sensor>
+	      </mapping>
+	    </module_settings>
+	  </sensor_controller> -->
+<!--	  <fiscal_register id = "1" name = "Shtrih" port = "12407" enable = "1" command_timeout = "200" interval = "1000" module_name = "/home/mkv/cyberax/shtrih/Debug/libshtrih.so" log_dir = "/home/mkv/cyberax/logs/devices" log_enable = "1" log_trace = "1"  file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/home/mkv/cyberax/logs/shtrih" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "0" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12212" uart_speed = "115200" uart_byte_size = "8" uart_parity = "none" uart_stop_bits = "1"/>
+	      <timeouts read = "200" write = "200"/>
+	      <protocol_type value = "0"/>
+	      <auto_drawer enable = "1"/>
+	      <auto_cutting enable = "1"/>
+	      <cash_num value = "0"/>
+	      <bn_num value = "4"/>
+	      <bonus_num value = "6"/>
+	      <time_sync enable = "1"/>
+	    </module_settings>
+	  </fiscal_register> -->
+	  </devices>
+</root>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<common
+	    server_name = "Тестовый сервер"
+	    port = "12000"
+
+	    log_dir = "/var/log/vombat"
+	    log_enable = "1"
+	    log_trace = "1"
+	    file_size = "10"
+	    save_days = "10"	
+	  
+	    connections_log_dir = "/var/log/vombat/clients"
+	    connections_log_enable = "1"
+	    connections_log_trace = "1"
+	    connections_log_frames = "1"
+	    connections_log_parsing = "1"
+	    connections_log_file_size = "10"
+	    connections_log_save_days = "10"
+	  />
+	
+	<profiles enable = "1">
+
+	  <profile id = "0" name = "Клиент 0" enable = "1" guid = "0000000000000000000000000000000000001" access_level = "4" />
+	  <profile id = "1" name = "Клиент 1" enable = "1" guid = "0000000000000000000000000000000000002" access_level = "0" />
+	  <profile id = "2" name = "Клиент 2" enable = "1" guid = "0000000000000000000000000000000000003" access_level = "0" />
+	</profiles>  
+
+	<devices>
+
+	  <tgs id = "1" name = "TLS" port = "12305" enable = "1" command_timeout = "20000" interval = "2000" module_name = "/lib/x86_64-linux-gnu/libtls.so" log_dir = "/var/log/vombat/tls" log_enable = "1" log_trace = "1"  file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/var/log/vombat/tls" trace = "1" system = "1" requests = "1" frames = "1" parsing = "0" file_size = "10" save_days = "10"/>
+	      <connection type = "1" port = "/dev/ttyUSB0" ip_address = "127.0.0.1" ip_port = "12300"/>
+	      <timeouts read = "1000" write = "1000"/>
+  
+	      <mapping>
+		<tank num = "1" channel = "1"/>
+		<tank num = "2" channel = "2"/>
+		<tank num = "3" channel = "3"/>
+		<tank num = "4" channel = "4"/>
+		<tank num = "5" channel = "5"/>
+	      </mapping>
+	    </module_settings>
+	  </tgs>
+	  <dispencer_controller id = "2" name = "Topaz" port = "12306" enable = "1" command_timeout = "2000" interval = "200" module_name = "/lib/x86_64-linux-gnu/libtopaz.so" log_dir = "/var/log/vombat/topaz" log_enable = "1" log_trace = "1" file_size = "10" save_days = "10">
+	    <module_settings>
+	      <log enable = "1" dir = "/var/log/vombat/topaz" trace = "1" system = "1" requests = "1" frames = "1" parsing = "1" file_size = "10" save_days = "10"/>
+	      <connection type = "1" port = "/dev/ttyUSB1" ip_address = "127.0.0.1" ip_port = "12301"/>
+	      <timeouts read = "200" write = "200"/>
+	      <decimal_points price_decimal_point = "2" volume_decimal_point = "2" amount_decimal_point = "2"/>
+	      <counters enable = "1"/>
+	      <auto_start enable = "1"/>
+	      <auto_payment enable = "1"/>
+	      <full_tank_volume value = "90000"/>
+  
+	      <mapping>
+		<dispencer num = "1" addr = "1">
+		  <nozzle num = "1" grade = "1"/>
+		  <nozzle num = "2" grade = "2"/>
+		  <nozzle num = "3" grade = "3"/>
+		  <nozzle num = "4" grade = "4"/>
+		</dispencer>
+
+		</mapping>
+	    </module_settings>
+	  </dispencer_controller> 
+
+  
+        </devices>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<log enable = "1" dir = "/cyberax/logs/port_router" trace ="1" file_size = "10" save_days = "10"/>
+	<device vendor_id = "1003" product_id = "8819" serial_number = "g0200087" idc_id = "1">
+	  <port interface_id = "28" num = "0" ip_port = "12213" max_client_count = "1" baudrate = "9600" byte_size = "8" parity = "odd" stop_bits = "1" duplex = "0" debug = "0" passtrough = "0" invert_rx = "0" invert_tx = "0" req_timeout = "0" recv_timeout = "0" application = "16"/>
+	  
+	  <port interface_id = "26" num = "1" ip_port = "12216" max_client_count = "1" />
+	  
+	</device>  
+	
+	<device vendor_id = "1003" product_id = "8819" serial_number = "g0200335" idc_id = "1">
+	  <port interface_id = "28" num = "1" ip_port = "12213" max_client_count = "1" baudrate = "9600" byte_size = "8" parity = "odd" stop_bits = "1" duplex = "0" debug = "0" passtrough = "0" invert_rx = "0" invert_tx = "0" req_timeout = "0" recv_timeout = "0" application = "16"/>
+
+	  <port interface_id = "26" num = "0" ip_port = "12216" max_client_count = "1" />
+
+	</device>  
+
+	<mult_device ip_port = "12213" max_client_count = "1">
+		<unit serial_number = "g0200087" num = "0" idc_id = "1"/>
+		<unit serial_number = "g0200335" num = "1" idc_id = "1"/>
+
+	</mult_device>
+
+</root>

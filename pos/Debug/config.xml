@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root>
+  <common guid="123123123"/>
+  <db address="127.0.0.1" port="5432" db_name="oilix-controller2" user_name="sl" user_password="sl"/>
+  <user_interface tanks_bar_enable="1"/>
+</root>

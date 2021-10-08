@@ -1,0 +1,954 @@
+<?xml version="1.0"?>
+<PSS_Config>
+  <Common>
+    <FcStatus>
+      <FcStatus1Flags>3</FcStatus1Flags>
+      <FcStatus2Flags>3</FcStatus2Flags>
+      <FcServiceMsgSeqNo>0</FcServiceMsgSeqNo>
+      <FcMasterResetDateAndTime>1618907528</FcMasterResetDateAndTime>
+      <FcMasterResetCode>0</FcMasterResetCode>
+      <FcResetDateAndTime>1618907528</FcResetDateAndTime>
+      <FcResetCode>0</FcResetCode>
+      <FcPriceSetId>1</FcPriceSetId>
+      <FcPriceSetDateAndTime>1621876050</FcPriceSetDateAndTime>
+      <FcOperationModeNo>1</FcOperationModeNo>
+      <FcOperationModeDateAndTime>1585559862</FcOperationModeDateAndTime>
+    </FcStatus>
+  </Common>
+  <GeneralConfiguration>
+    <GeneralParams>
+      <PriceIncreaseDelay>2</PriceIncreaseDelay>
+      <PriceDecreaseDelay>2</PriceDecreaseDelay>
+      <DefaultLangugeCode>RUS</DefaultLangugeCode>
+      <DisableFpTotalsError>Yes</DisableFpTotalsError>
+      <EnableDemoEncription>No</EnableDemoEncription>
+      <CurrencyCode>RUB</CurrencyCode>
+      <FcPumpTotalsHandlingMode>0</FcPumpTotalsHandlingMode>
+      <FcShiftNo>AAA</FcShiftNo>
+      <VATRate>1234</VATRate>
+    </GeneralParams>
+    <GeneralFunctions>
+      <Grades>
+        <Grade ID="1" Name="G-Drive 100"/>
+        <Grade ID="2" Name="G-Drive 95"/>
+        <Grade ID="3" Name="&#x410;&#x418;-95"/>
+        <Grade ID="4" Name="&#x410;&#x418;-92"/>
+      </Grades>
+      <PriceGroups>
+        <PriceGroup ID="1">
+          <GradeID>3</GradeID>
+          <Price>4430</Price>
+          <GradeID>1</GradeID>
+          <Price>4180</Price>
+          <GradeID>4</GradeID>
+          <Price>5080</Price>
+          <GradeID>2</GradeID>
+          <Price>4370</Price>
+        </PriceGroup>
+      </PriceGroups>
+    </GeneralFunctions>
+    <DispenseControl>
+      <ServiceModes>
+        <ServiceMode ID="11">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="21">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>99</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="31">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="41">
+          <AutoAuthorizeLimit>1</AutoAuthorizeLimit>
+          <MaxPreAuthTime>9999</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>No</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>5</MinTransVol>
+          <MinTransMoney>50</MinTransMoney>
+          <SupTransBufferSize>0</SupTransBufferSize>
+          <UnsupTransBufferSize>1</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>No</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="51">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>0</SupTransBufferSize>
+          <UnsupTransBufferSize>1</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>Yes</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>No</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="61">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>99</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>0</SupTransBufferSize>
+          <UnsupTransBufferSize>1</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>Yes</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>No</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="12">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>240</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>No</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>1</MinTransVol>
+          <MinTransMoney>50</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="13">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>No</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>1</MinTransVol>
+          <MinTransMoney>50</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="22">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>99</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>No</MoneyDueInTransBufferStatus>
+          <MinTransVol>0</MinTransVol>
+          <MinTransMoney>0</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>9999</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+        <ServiceMode ID="23">
+          <AutoAuthorizeLimit>0</AutoAuthorizeLimit>
+          <MaxPreAuthTime>0</MaxPreAuthTime>
+          <MaxNzLayDownTime>10</MaxNzLayDownTime>
+          <ZeroTransToPos>Yes</ZeroTransToPos>
+          <MoneyDueInTransBufferStatus>Yes</MoneyDueInTransBufferStatus>
+          <MinTransVol>1</MinTransVol>
+          <MinTransMoney>1</MinTransMoney>
+          <SupTransBufferSize>2</SupTransBufferSize>
+          <UnsupTransBufferSize>0</UnsupTransBufferSize>
+          <StoreAtPreAuthorize>No</StoreAtPreAuthorize>
+          <VolInTransBufferStatus>Yes</VolInTransBufferStatus>
+          <AuthorizeAtModeSelection>No</AuthorizeAtModeSelection>
+          <MnoConsecutiveZeroTrans>99</MnoConsecutiveZeroTrans>
+          <AutoClearTransDelayTime>1</AutoClearTransDelayTime>
+          <PumpLightMode>0</PumpLightMode>
+          <StopFpOnVehicleTag>No</StopFpOnVehicleTag>
+          <UseVehicleTagReadingButton>No</UseVehicleTagReadingButton>
+          <AutoUnlockTransDelayTime>9999</AutoUnlockTransDelayTime>
+        </ServiceMode>
+      </ServiceModes>
+      <FuellingModes>
+        <FuellingMode ID="1">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>999999999</MaxTransVolume>
+          <MaxTransMoney>999999999</MaxTransMoney>
+          <MaxFuellingTime>9999</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="6">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>40000</MaxTransVolume>
+          <MaxTransMoney>999900</MaxTransMoney>
+          <MaxFuellingTime>1200</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="2">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>999999999</MaxTransVolume>
+          <MaxTransMoney>999999999</MaxTransMoney>
+          <MaxFuellingTime>9999</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="7">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>40000</MaxTransVolume>
+          <MaxTransMoney>999900</MaxTransMoney>
+          <MaxFuellingTime>1200</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="3">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>999999999</MaxTransVolume>
+          <MaxTransMoney>999999999</MaxTransMoney>
+          <MaxFuellingTime>360</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>40000</MaxTransVolume_e>
+          <MaxTransMoney_e>999900</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="8">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>40000</MaxTransVolume>
+          <MaxTransMoney>999900</MaxTransMoney>
+          <MaxFuellingTime>1200</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="4">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>999999999</MaxTransVolume>
+          <MaxTransMoney>999999999</MaxTransMoney>
+          <MaxFuellingTime>9999</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="9">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>40000</MaxTransVolume>
+          <MaxTransMoney>999900</MaxTransMoney>
+          <MaxFuellingTime>1200</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="5">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>999999999</MaxTransVolume>
+          <MaxTransMoney>999999999</MaxTransMoney>
+          <MaxFuellingTime>9999</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+        <FuellingMode ID="10">
+          <FuellingType>0000000000000001</FuellingType>
+          <MaxTimeToReachMinLimit>60</MaxTimeToReachMinLimit>
+          <MaxTimeWithoutProgress>99</MaxTimeWithoutProgress>
+          <MaxTransVolume>40000</MaxTransVolume>
+          <MaxTransMoney>999900</MaxTransMoney>
+          <MaxFuellingTime>1200</MaxFuellingTime>
+          <MaxPresetVolOverrunErrLimit>5</MaxPresetVolOverrunErrLimit>
+          <ClrDisplayDelayTime>15</ClrDisplayDelayTime>
+          <ClrDisplayWhenCurTrDisappear>Yes</ClrDisplayWhenCurTrDisappear>
+          <MinSubPumpRuntimeBeforeStart>0</MinSubPumpRuntimeBeforeStart>
+          <MaxTransVolume_e>1410065407</MaxTransVolume_e>
+          <MaxTransMoney_e>1410065407</MaxTransMoney_e>
+        </FuellingMode>
+      </FuellingModes>
+      <FuellingModeGroups>
+        <FuellingModeGroup ID="1">
+          <FuellingModeID GradeID="1">1</FuellingModeID>
+          <FuellingModeID GradeID="2">2</FuellingModeID>
+          <FuellingModeID GradeID="3">3</FuellingModeID>
+          <FuellingModeID GradeID="4">4</FuellingModeID>
+        </FuellingModeGroup>
+        <FuellingModeGroup ID="2">
+          <FuellingModeID GradeID="1">6</FuellingModeID>
+          <FuellingModeID GradeID="2">7</FuellingModeID>
+          <FuellingModeID GradeID="3">8</FuellingModeID>
+          <FuellingModeID GradeID="4">9</FuellingModeID>
+        </FuellingModeGroup>
+        <FuellingModeGroup ID="3">
+          <FuellingModeID GradeID="1">6</FuellingModeID>
+          <FuellingModeID GradeID="2">7</FuellingModeID>
+          <FuellingModeID GradeID="3">8</FuellingModeID>
+          <FuellingModeID GradeID="4">9</FuellingModeID>
+        </FuellingModeGroup>
+        <FuellingModeGroup ID="4">
+          <FuellingModeID GradeID="1">6</FuellingModeID>
+          <FuellingModeID GradeID="2">7</FuellingModeID>
+          <FuellingModeID GradeID="3">8</FuellingModeID>
+          <FuellingModeID GradeID="4">9</FuellingModeID>
+        </FuellingModeGroup>
+        <FuellingModeGroup ID="5">
+          <FuellingModeID GradeID="1">3</FuellingModeID>
+          <FuellingModeID GradeID="2">3</FuellingModeID>
+          <FuellingModeID GradeID="3">3</FuellingModeID>
+          <FuellingModeID GradeID="4">3</FuellingModeID>
+        </FuellingModeGroup>
+      </FuellingModeGroups>
+      <DispenseLimits>
+        <GlobalMoneyLimit>999900</GlobalMoneyLimit>
+        <GlobalVolumeLimit>40000</GlobalVolumeLimit>
+      </DispenseLimits>
+    </DispenseControl>
+    <PaymentControl>
+      <Receipts>
+        <ReceiptLines>
+          <Line ID="1" Definition=""/>
+          <Line ID="2" Definition="#18; DomsOil"/>
+          <Line ID="3" Definition="#18; SERVICE-CENTER"/>
+          <Line ID="4" Definition="#18; GLOSTRUP"/>
+          <Line ID="5" Definition=" PHONE (+45) 43 29 94 00"/>
+          <Line ID="6" Definition=""/>
+          <Line ID="7" Definition=""/>
+          <Line ID="8" Definition=""/>
+          <Line ID="9" Definition=""/>
+          <Line ID="10" Definition="%x"/>
+          <Line ID="11" Definition="%04#r %7,2#vL"/>
+          <Line ID="12" Definition="%y"/>
+          <Line ID="13" Definition=""/>
+          <Line ID="14" Definition=""/>
+          <Line ID="15" Definition=""/>
+          <Line ID="16" Definition=""/>
+          <Line ID="17" Definition=""/>
+          <Line ID="18" Definition=""/>
+          <Line ID="19" Definition=""/>
+          <Line ID="20" Definition=""/>
+          <Line ID="21" Definition=" DOMS CAN HELP"/>
+          <Line ID="22" Definition=" FOOTER LINE 2"/>
+          <Line ID="23" Definition=" FOOTER LINE 3"/>
+          <Line ID="24" Definition=" FOOTER LINE 4"/>
+        </ReceiptLines>
+        <ReceiptHeaders>
+          <ReceiptHeader ID="1">
+            <Line ID="2"/>
+            <Line ID="3"/>
+            <Line ID="4"/>
+            <Line ID="5"/>
+            <Line ID="1"/>
+          </ReceiptHeader>
+        </ReceiptHeaders>
+        <ReceiptFormats>
+          <ReceiptFormat ID="1">
+            <Line ID="10"/>
+            <Line ID="11"/>
+          </ReceiptFormat>
+          <ReceiptFormat ID="2">
+            <Line ID="10"/>
+            <Line ID="11"/>
+          </ReceiptFormat>
+        </ReceiptFormats>
+      </Receipts>
+    </PaymentControl>
+  </GeneralConfiguration>
+  <Devices>
+    <Tanks>
+      <Tank ID="1" Height="20980" Volume="4479500" Weight="322" Density="720" Temperature="30" WaterLevel="0" Online="1"/>
+      <Tank ID="2" Height="20600" Volume="4460700" Weight="325" Density="730" Temperature="40" WaterLevel="0" Online="1"/>
+      <Tank ID="3" Height="20800" Volume="4473400" Weight="339" Density="760" Temperature="30" WaterLevel="0" Online="1"/>
+      <Tank ID="4" Height="20400" Volume="4451400" Weight="369" Density="830" Temperature="50" WaterLevel="0" Online="1"/>
+      <Tank ID="5" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="6" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="7" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="8" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="9" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="10" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="11" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="12" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="13" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="14" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="15" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+      <Tank ID="16" Height="0" Volume="0" Weight="0" Density="0" Temperature="0" WaterLevel="0" Online="0"/>
+    </Tanks>
+    <FuellingPoints>
+      <FuellingPoint ID="1">
+        <PSSPortNo>11</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceTypeGeneral>0000000000000000</InterfaceTypeGeneral>
+        <InterfaceTypeProtocol>0000000000000000</InterfaceTypeProtocol>
+        <PssExtProtocolId>0</PssExtProtocolId>
+        <PhysicalAddress>1</PhysicalAddress>
+        <PhysicalAddressType>1</PhysicalAddressType>
+        <PhysicalAddressPort>0</PhysicalAddressPort>
+        <DeviceSubAddress>0</DeviceSubAddress>
+        <IsClose>No</IsClose>
+        <SmID>0</SmID>
+        <MainState>2</MainState>
+        <SubState>4</SubState>
+        <SubState2>1</SubState2>
+        <LockedID>0</LockedID>
+        <GradeID>0</GradeID>
+        <FuellingVolume>0</FuellingVolume>
+        <FuellingMoney>0</FuellingMoney>
+        <AttendantAccauntID></AttendantAccauntID>
+        <OperationModeNo>1</OperationModeNo>
+        <VolumeTotal>43952</VolumeTotal>
+        <MoneyTotal>0</MoneyTotal>
+        <GradeOptions>
+          <GradeOption ID="1">
+            <GradeID>1</GradeID>
+            <VolumeTotal>43952</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>11</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="2">
+            <GradeID>2</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>12</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="3">
+            <GradeID>3</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>13</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="4">
+            <GradeID>4</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>14</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+        </GradeOptions>
+        <PumpInterfaceDecimalPositions>
+          <InPrice>2</InPrice>
+          <InVolume>2</InVolume>
+          <InMoney>2</InMoney>
+          <InVolumeTotal>2</InVolumeTotal>
+          <InMoneyTotal>2</InMoneyTotal>
+        </PumpInterfaceDecimalPositions>
+        <OperationModes>
+          <OperationMode ID="1">
+            <FPServiceMode>
+              <ServiceModeID>23</ServiceModeID>
+              <FuellingModeGroupID>5</FuellingModeGroupID>
+              <PriceGroupID>1</PriceGroupID>
+            </FPServiceMode>
+          </OperationMode>
+        </OperationModes>
+        <Limits>
+          <FloorLimitMargin>0</FloorLimitMargin>
+        </Limits>
+        <SupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </SupTransactions>
+        <UnsupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </UnsupTransactions>
+        <PresetData>
+          <FmgID>0</FmgID>
+          <PgID>0</PgID>
+          <PosID>0</PosID>
+          <PresetType>0</PresetType>
+          <GradeID>0</GradeID>
+          <PresetValue>0</PresetValue>
+          <SmID>0</SmID>
+          <ValidGrades/>
+        </PresetData>
+        <PumpInterfaceConfigString></PumpInterfaceConfigString>
+        <NominalNormalSpeed>0</NominalNormalSpeed>
+        <NominalHighSpeed>0</NominalHighSpeed>
+        <HighSpeedTriggerLevel>0</HighSpeedTriggerLevel>
+      </FuellingPoint>
+      <FuellingPoint ID="2">
+        <PSSPortNo>11</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceTypeGeneral>0000000000000000</InterfaceTypeGeneral>
+        <InterfaceTypeProtocol>0000000000000000</InterfaceTypeProtocol>
+        <PssExtProtocolId>0</PssExtProtocolId>
+        <PhysicalAddress>2</PhysicalAddress>
+        <PhysicalAddressType>1</PhysicalAddressType>
+        <PhysicalAddressPort>0</PhysicalAddressPort>
+        <DeviceSubAddress>0</DeviceSubAddress>
+        <IsClose>No</IsClose>
+        <SmID>0</SmID>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <SubState2>0</SubState2>
+        <LockedID>0</LockedID>
+        <GradeID>0</GradeID>
+        <FuellingVolume>0</FuellingVolume>
+        <FuellingMoney>0</FuellingMoney>
+        <AttendantAccauntID></AttendantAccauntID>
+        <OperationModeNo>1</OperationModeNo>
+        <VolumeTotal>0</VolumeTotal>
+        <MoneyTotal>0</MoneyTotal>
+        <GradeOptions>
+          <GradeOption ID="1">
+            <GradeID>1</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>21</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="2">
+            <GradeID>2</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>22</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="3">
+            <GradeID>3</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>23</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="4">
+            <GradeID>4</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>24</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+        </GradeOptions>
+        <PumpInterfaceDecimalPositions>
+          <InPrice>2</InPrice>
+          <InVolume>2</InVolume>
+          <InMoney>2</InMoney>
+          <InVolumeTotal>2</InVolumeTotal>
+          <InMoneyTotal>2</InMoneyTotal>
+        </PumpInterfaceDecimalPositions>
+        <OperationModes>
+          <OperationMode ID="1">
+            <FPServiceMode>
+              <ServiceModeID>23</ServiceModeID>
+              <FuellingModeGroupID>5</FuellingModeGroupID>
+              <PriceGroupID>1</PriceGroupID>
+            </FPServiceMode>
+          </OperationMode>
+        </OperationModes>
+        <Limits>
+          <FloorLimitMargin>0</FloorLimitMargin>
+        </Limits>
+        <SupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </SupTransactions>
+        <UnsupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </UnsupTransactions>
+        <PresetData>
+          <FmgID>0</FmgID>
+          <PgID>0</PgID>
+          <PosID>0</PosID>
+          <PresetType>0</PresetType>
+          <GradeID>0</GradeID>
+          <PresetValue>0</PresetValue>
+          <SmID>0</SmID>
+          <ValidGrades/>
+        </PresetData>
+        <PumpInterfaceConfigString></PumpInterfaceConfigString>
+        <NominalNormalSpeed>0</NominalNormalSpeed>
+        <NominalHighSpeed>0</NominalHighSpeed>
+        <HighSpeedTriggerLevel>0</HighSpeedTriggerLevel>
+      </FuellingPoint>
+      <FuellingPoint ID="3">
+        <PSSPortNo>13</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceTypeGeneral>0000000000000000</InterfaceTypeGeneral>
+        <InterfaceTypeProtocol>0000000000000010</InterfaceTypeProtocol>
+        <PssExtProtocolId>0</PssExtProtocolId>
+        <PhysicalAddress>2</PhysicalAddress>
+        <PhysicalAddressType>1</PhysicalAddressType>
+        <PhysicalAddressPort>0</PhysicalAddressPort>
+        <DeviceSubAddress>0</DeviceSubAddress>
+        <IsClose>No</IsClose>
+        <SmID>0</SmID>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <SubState2>0</SubState2>
+        <LockedID>0</LockedID>
+        <GradeID>0</GradeID>
+        <FuellingVolume>0</FuellingVolume>
+        <FuellingMoney>0</FuellingMoney>
+        <AttendantAccauntID></AttendantAccauntID>
+        <OperationModeNo>1</OperationModeNo>
+        <VolumeTotal>0</VolumeTotal>
+        <MoneyTotal>0</MoneyTotal>
+        <GradeOptions>
+          <GradeOption ID="1">
+            <GradeID>4</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>31</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+        </GradeOptions>
+        <PumpInterfaceDecimalPositions>
+          <InPrice>2</InPrice>
+          <InVolume>2</InVolume>
+          <InMoney>2</InMoney>
+          <InVolumeTotal>2</InVolumeTotal>
+          <InMoneyTotal>2</InMoneyTotal>
+        </PumpInterfaceDecimalPositions>
+        <OperationModes>
+          <OperationMode ID="1">
+            <FPServiceMode>
+              <ServiceModeID>23</ServiceModeID>
+              <FuellingModeGroupID>5</FuellingModeGroupID>
+              <PriceGroupID>1</PriceGroupID>
+            </FPServiceMode>
+          </OperationMode>
+        </OperationModes>
+        <Limits>
+          <FloorLimitMargin>0</FloorLimitMargin>
+        </Limits>
+        <SupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </SupTransactions>
+        <UnsupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </UnsupTransactions>
+        <PresetData>
+          <FmgID>0</FmgID>
+          <PgID>0</PgID>
+          <PosID>0</PosID>
+          <PresetType>0</PresetType>
+          <GradeID>0</GradeID>
+          <PresetValue>0</PresetValue>
+          <SmID>0</SmID>
+          <ValidGrades/>
+        </PresetData>
+        <PumpInterfaceConfigString></PumpInterfaceConfigString>
+        <NominalNormalSpeed>0</NominalNormalSpeed>
+        <NominalHighSpeed>0</NominalHighSpeed>
+        <HighSpeedTriggerLevel>0</HighSpeedTriggerLevel>
+      </FuellingPoint>
+      <FuellingPoint ID="4">
+        <PSSPortNo>31</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceTypeGeneral>0000000000000000</InterfaceTypeGeneral>
+        <InterfaceTypeProtocol>0000000000000000</InterfaceTypeProtocol>
+        <PssExtProtocolId>0</PssExtProtocolId>
+        <PhysicalAddress>1</PhysicalAddress>
+        <PhysicalAddressType>1</PhysicalAddressType>
+        <PhysicalAddressPort>0</PhysicalAddressPort>
+        <DeviceSubAddress>0</DeviceSubAddress>
+        <IsClose>No</IsClose>
+        <SmID>0</SmID>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <SubState2>0</SubState2>
+        <LockedID>0</LockedID>
+        <GradeID>0</GradeID>
+        <FuellingVolume>0</FuellingVolume>
+        <FuellingMoney>0</FuellingMoney>
+        <AttendantAccauntID></AttendantAccauntID>
+        <OperationModeNo>1</OperationModeNo>
+        <VolumeTotal>0</VolumeTotal>
+        <MoneyTotal>0</MoneyTotal>
+        <GradeOptions>
+          <GradeOption ID="1">
+            <GradeID>1</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>41</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="2">
+            <GradeID>2</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>42</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="3">
+            <GradeID>3</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>43</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+          <GradeOption ID="4">
+            <GradeID>4</GradeID>
+            <VolumeTotal>0</VolumeTotal>
+            <MoneyTotal>0</MoneyTotal>
+            <NozzleID>44</NozzleID>
+            <NozzleTagReaderID>0</NozzleTagReaderID>
+            <TankConnections/>
+          </GradeOption>
+        </GradeOptions>
+        <PumpInterfaceDecimalPositions>
+          <InPrice>2</InPrice>
+          <InVolume>2</InVolume>
+          <InMoney>2</InMoney>
+          <InVolumeTotal>2</InVolumeTotal>
+          <InMoneyTotal>2</InMoneyTotal>
+        </PumpInterfaceDecimalPositions>
+        <OperationModes>
+          <OperationMode ID="1">
+            <FPServiceMode>
+              <ServiceModeID>23</ServiceModeID>
+              <FuellingModeGroupID>5</FuellingModeGroupID>
+              <PriceGroupID>1</PriceGroupID>
+            </FPServiceMode>
+          </OperationMode>
+        </OperationModes>
+        <Limits>
+          <FloorLimitMargin>0</FloorLimitMargin>
+        </Limits>
+        <SupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </SupTransactions>
+        <UnsupTransactions>
+          <LastTransSeqNo>0</LastTransSeqNo>
+        </UnsupTransactions>
+        <PresetData>
+          <FmgID>0</FmgID>
+          <PgID>0</PgID>
+          <PosID>0</PosID>
+          <PresetType>0</PresetType>
+          <GradeID>0</GradeID>
+          <PresetValue>0</PresetValue>
+          <SmID>0</SmID>
+          <ValidGrades/>
+        </PresetData>
+        <PumpInterfaceConfigString></PumpInterfaceConfigString>
+        <NominalNormalSpeed>0</NominalNormalSpeed>
+        <NominalHighSpeed>0</NominalHighSpeed>
+        <HighSpeedTriggerLevel>0</HighSpeedTriggerLevel>
+      </FuellingPoint>
+    </FuellingPoints>
+    <TankGauges>
+      <TankGauge ID="1">
+        <PSSPortNo>12</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceType>0000000000000000</InterfaceType>
+        <PhysicalAddress>0</PhysicalAddress>
+        <PhysicalSubAddress Value="0"/>
+        <Tank ID="1"/>
+        <TankHeight>0</TankHeight>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <ExtraInstallData>
+          <Alarms>
+            <HeightAlarms/>
+            <VolumeAlarms/>
+          </Alarms>
+        </ExtraInstallData>
+      </TankGauge>
+      <TankGauge ID="2">
+        <PSSPortNo>12</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceType>0000000000000000</InterfaceType>
+        <PhysicalAddress>0</PhysicalAddress>
+        <PhysicalSubAddress Value="0"/>
+        <Tank ID="2"/>
+        <TankHeight>0</TankHeight>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <ExtraInstallData>
+          <Alarms>
+            <HeightAlarms/>
+            <VolumeAlarms/>
+          </Alarms>
+        </ExtraInstallData>
+      </TankGauge>
+      <TankGauge ID="3">
+        <PSSPortNo>12</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceType>0000000000000000</InterfaceType>
+        <PhysicalAddress>0</PhysicalAddress>
+        <PhysicalSubAddress Value="0"/>
+        <Tank ID="3"/>
+        <TankHeight>0</TankHeight>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <ExtraInstallData>
+          <Alarms>
+            <HeightAlarms/>
+            <VolumeAlarms/>
+          </Alarms>
+        </ExtraInstallData>
+      </TankGauge>
+      <TankGauge ID="4">
+        <PSSPortNo>12</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceType>0000000000000000</InterfaceType>
+        <PhysicalAddress>0</PhysicalAddress>
+        <PhysicalSubAddress Value="0"/>
+        <Tank ID="4"/>
+        <TankHeight>0</TankHeight>
+        <MainState>0</MainState>
+        <SubState>0</SubState>
+        <ExtraInstallData>
+          <Alarms>
+            <HeightAlarms/>
+            <VolumeAlarms/>
+          </Alarms>
+        </ExtraInstallData>
+      </TankGauge>
+    </TankGauges>
+    <PricePoles>
+      <PricePole ID="1">
+        <PSSPortNo>12</PSSPortNo>
+        <ServerDeviceID>0</ServerDeviceID>
+        <InterfaceType>0000000000000000</InterfaceType>
+        <PhysicalAddress>1</PhysicalAddress>
+        <MainState>2</MainState>
+        <SubState>1</SubState>
+        <NoPricePositionOption>2</NoPricePositionOption>
+        <PricePositionOptions>
+          <PricePositionOption No="2" FcPriceGroupId="1" FcGradeId="1"/>
+          <PricePositionOption No="4" FcPriceGroupId="1" FcGradeId="2"/>
+        </PricePositionOptions>
+      </PricePole>
+    </PricePoles>
+    <PaymentTerminals/>
+  </Devices>
+</PSS_Config>
