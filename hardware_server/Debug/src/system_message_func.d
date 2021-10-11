@@ -42,10 +42,6 @@ src/system_message_func.o: ../src/system_message_func.c \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
- /usr/include/glib-2.0/glib/grcbox.h \
- /usr/include/glib-2.0/glib/grefcount.h \
- /usr/include/glib-2.0/glib/grefstring.h \
- /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gregex.h \
  /usr/include/glib-2.0/glib/gscanner.h \
  /usr/include/glib-2.0/glib/gsequence.h \
@@ -179,16 +175,6 @@ src/system_message_func.o: ../src/system_message_func.c \
 /usr/include/glib-2.0/glib/gqueue.h:
 
 /usr/include/glib-2.0/glib/grand.h:
-
-/usr/include/glib-2.0/glib/grcbox.h:
-
-/usr/include/glib-2.0/glib/grefcount.h:
-
-/usr/include/glib-2.0/glib/grefstring.h:
-
-/usr/include/glib-2.0/glib/gmem.h:
-
-/usr/include/glib-2.0/glib/gmacros.h:
 
 /usr/include/glib-2.0/glib/gregex.h:
 

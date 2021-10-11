@@ -41,10 +41,6 @@ src/pss_xml.o: ../src/pss_xml.c /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
- /usr/include/glib-2.0/glib/grcbox.h \
- /usr/include/glib-2.0/glib/grefcount.h \
- /usr/include/glib-2.0/glib/grefstring.h \
- /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gregex.h \
  /usr/include/glib-2.0/glib/gscanner.h \
  /usr/include/glib-2.0/glib/gsequence.h \
@@ -81,8 +77,8 @@ src/pss_xml.o: ../src/pss_xml.c /usr/include/glib-2.0/glib.h \
  /usr/include/libxml2/libxml/entities.h \
  /usr/include/libxml2/libxml/encoding.h \
  /usr/include/libxml2/libxml/xmlIO.h \
- /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX2.h \
- /usr/include/libxml2/libxml/xlink.h \
+ /usr/include/libxml2/libxml/globals.h /usr/include/libxml2/libxml/SAX.h \
+ /usr/include/libxml2/libxml/xlink.h /usr/include/libxml2/libxml/SAX2.h \
  /usr/include/libxml2/libxml/xmlmemory.h \
  /usr/include/libxml2/libxml/threads.h \
  /usr/include/libxml2/libxml/xmlreader.h \
@@ -202,16 +198,6 @@ src/pss_xml.o: ../src/pss_xml.c /usr/include/glib-2.0/glib.h \
 
 /usr/include/glib-2.0/glib/grand.h:
 
-/usr/include/glib-2.0/glib/grcbox.h:
-
-/usr/include/glib-2.0/glib/grefcount.h:
-
-/usr/include/glib-2.0/glib/grefstring.h:
-
-/usr/include/glib-2.0/glib/gmem.h:
-
-/usr/include/glib-2.0/glib/gmacros.h:
-
 /usr/include/glib-2.0/glib/gregex.h:
 
 /usr/include/glib-2.0/glib/gscanner.h:
@@ -294,9 +280,11 @@ src/pss_xml.o: ../src/pss_xml.c /usr/include/glib-2.0/glib.h \
 
 /usr/include/libxml2/libxml/globals.h:
 
-/usr/include/libxml2/libxml/SAX2.h:
+/usr/include/libxml2/libxml/SAX.h:
 
 /usr/include/libxml2/libxml/xlink.h:
+
+/usr/include/libxml2/libxml/SAX2.h:
 
 /usr/include/libxml2/libxml/xmlmemory.h:
 

@@ -46,10 +46,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/glib/gpattern.h \
  /usr/include/glib-2.0/glib/gprimes.h /usr/include/glib-2.0/glib/gqsort.h \
  /usr/include/glib-2.0/glib/gqueue.h /usr/include/glib-2.0/glib/grand.h \
- /usr/include/glib-2.0/glib/grcbox.h \
- /usr/include/glib-2.0/glib/grefcount.h \
- /usr/include/glib-2.0/glib/grefstring.h \
- /usr/include/glib-2.0/glib/gmem.h /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gregex.h \
  /usr/include/glib-2.0/glib/gscanner.h \
  /usr/include/glib-2.0/glib/gsequence.h \
@@ -81,7 +77,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gobject/gboxed.h \
  /usr/include/glib-2.0/gobject/glib-types.h \
  /usr/include/glib-2.0/gobject/genums.h \
- /usr/include/glib-2.0/gobject/glib-enumtypes.h \
  /usr/include/glib-2.0/gobject/gparamspecs.h \
  /usr/include/glib-2.0/gobject/gsourceclosure.h \
  /usr/include/glib-2.0/gobject/gtypemodule.h \
@@ -116,26 +111,15 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gdatagrambased.h \
  /usr/include/glib-2.0/gio/gdatainputstream.h \
  /usr/include/glib-2.0/gio/gdataoutputstream.h \
- /usr/include/glib-2.0/gio/gdbusactiongroup.h \
- /usr/include/glib-2.0/gio/giotypes.h \
  /usr/include/glib-2.0/gio/gdbusaddress.h \
  /usr/include/glib-2.0/gio/gdbusauthobserver.h \
  /usr/include/glib-2.0/gio/gdbusconnection.h \
  /usr/include/glib-2.0/gio/gdbuserror.h \
- /usr/include/glib-2.0/gio/gdbusinterface.h \
- /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h \
  /usr/include/glib-2.0/gio/gdbusintrospection.h \
- /usr/include/glib-2.0/gio/gdbusmenumodel.h \
  /usr/include/glib-2.0/gio/gdbusmessage.h \
  /usr/include/glib-2.0/gio/gdbusmethodinvocation.h \
  /usr/include/glib-2.0/gio/gdbusnameowning.h \
  /usr/include/glib-2.0/gio/gdbusnamewatching.h \
- /usr/include/glib-2.0/gio/gdbusobject.h \
- /usr/include/glib-2.0/gio/gdbusobjectmanager.h \
- /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h \
- /usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h \
- /usr/include/glib-2.0/gio/gdbusobjectproxy.h \
- /usr/include/glib-2.0/gio/gdbusobjectskeleton.h \
  /usr/include/glib-2.0/gio/gdbusproxy.h \
  /usr/include/glib-2.0/gio/gdbusserver.h \
  /usr/include/glib-2.0/gio/gdbusutils.h \
@@ -145,10 +129,9 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gdtlsserverconnection.h \
  /usr/include/glib-2.0/gio/gemblemedicon.h \
  /usr/include/glib-2.0/gio/gicon.h /usr/include/glib-2.0/gio/gemblem.h \
- /usr/include/glib-2.0/gio/gfile.h \
  /usr/include/glib-2.0/gio/gfileattribute.h \
  /usr/include/glib-2.0/gio/gfileenumerator.h \
- /usr/include/glib-2.0/gio/gfileicon.h \
+ /usr/include/glib-2.0/gio/gfile.h /usr/include/glib-2.0/gio/gfileicon.h \
  /usr/include/glib-2.0/gio/gfileinfo.h \
  /usr/include/glib-2.0/gio/gfileinputstream.h \
  /usr/include/glib-2.0/gio/gfileiostream.h \
@@ -164,23 +147,16 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gioenumtypes.h \
  /usr/include/glib-2.0/gio/giomodule.h /usr/include/glib-2.0/gmodule.h \
  /usr/include/glib-2.0/gio/gioscheduler.h \
- /usr/include/glib-2.0/gio/glistmodel.h \
- /usr/include/glib-2.0/gio/gliststore.h \
  /usr/include/glib-2.0/gio/gloadableicon.h \
  /usr/include/glib-2.0/gio/gmemoryinputstream.h \
- /usr/include/glib-2.0/gio/gmemorymonitor.h \
  /usr/include/glib-2.0/gio/gmemoryoutputstream.h \
- /usr/include/glib-2.0/gio/gmenu.h /usr/include/glib-2.0/gio/gmenumodel.h \
- /usr/include/glib-2.0/gio/gmenuexporter.h \
  /usr/include/glib-2.0/gio/gmount.h \
  /usr/include/glib-2.0/gio/gmountoperation.h \
- /usr/include/glib-2.0/gio/gnativesocketaddress.h \
  /usr/include/glib-2.0/gio/gnativevolumemonitor.h \
  /usr/include/glib-2.0/gio/gvolumemonitor.h \
  /usr/include/glib-2.0/gio/gnetworkaddress.h \
  /usr/include/glib-2.0/gio/gnetworkmonitor.h \
  /usr/include/glib-2.0/gio/gnetworkservice.h \
- /usr/include/glib-2.0/gio/gnotification.h \
  /usr/include/glib-2.0/gio/gpermission.h \
  /usr/include/glib-2.0/gio/gpollableinputstream.h \
  /usr/include/glib-2.0/gio/gpollableoutputstream.h \
@@ -191,12 +167,11 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gproxyaddressenumerator.h \
  /usr/include/glib-2.0/gio/gsocketaddressenumerator.h \
  /usr/include/glib-2.0/gio/gproxyresolver.h \
- /usr/include/glib-2.0/gio/gremoteactiongroup.h \
  /usr/include/glib-2.0/gio/gresolver.h \
  /usr/include/glib-2.0/gio/gresource.h \
  /usr/include/glib-2.0/gio/gseekable.h \
- /usr/include/glib-2.0/gio/gsettings.h \
  /usr/include/glib-2.0/gio/gsettingsschema.h \
+ /usr/include/glib-2.0/gio/gsettings.h \
  /usr/include/glib-2.0/gio/gsimpleaction.h \
  /usr/include/glib-2.0/gio/gsimpleactiongroup.h \
  /usr/include/glib-2.0/gio/gactiongroup.h \
@@ -204,18 +179,18 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gsimpleasyncresult.h \
  /usr/include/glib-2.0/gio/gsimpleiostream.h \
  /usr/include/glib-2.0/gio/gsimplepermission.h \
- /usr/include/glib-2.0/gio/gsimpleproxyresolver.h \
- /usr/include/glib-2.0/gio/gsocket.h \
  /usr/include/glib-2.0/gio/gsocketclient.h \
  /usr/include/glib-2.0/gio/gsocketconnectable.h \
  /usr/include/glib-2.0/gio/gsocketconnection.h \
+ /usr/include/glib-2.0/gio/gsocket.h \
  /usr/include/glib-2.0/gio/gsocketcontrolmessage.h \
  /usr/include/glib-2.0/gio/gsocketlistener.h \
  /usr/include/glib-2.0/gio/gsocketservice.h \
  /usr/include/glib-2.0/gio/gsrvtarget.h \
+ /usr/include/glib-2.0/gio/gsimpleproxyresolver.h \
+ /usr/include/glib-2.0/gio/gtask.h \
  /usr/include/glib-2.0/gio/gsubprocess.h \
  /usr/include/glib-2.0/gio/gsubprocesslauncher.h \
- /usr/include/glib-2.0/gio/gtask.h \
  /usr/include/glib-2.0/gio/gtcpconnection.h \
  /usr/include/glib-2.0/gio/gtcpwrapperconnection.h \
  /usr/include/glib-2.0/gio/gtestdbus.h \
@@ -228,11 +203,28 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/glib-2.0/gio/gtlsdatabase.h \
  /usr/include/glib-2.0/gio/gtlsfiledatabase.h \
  /usr/include/glib-2.0/gio/gtlsinteraction.h \
- /usr/include/glib-2.0/gio/gtlspassword.h \
  /usr/include/glib-2.0/gio/gtlsserverconnection.h \
+ /usr/include/glib-2.0/gio/gtlspassword.h \
  /usr/include/glib-2.0/gio/gvfs.h /usr/include/glib-2.0/gio/gvolume.h \
  /usr/include/glib-2.0/gio/gzlibcompressor.h \
  /usr/include/glib-2.0/gio/gzlibdecompressor.h \
+ /usr/include/glib-2.0/gio/gdbusinterface.h \
+ /usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h \
+ /usr/include/glib-2.0/gio/gdbusobject.h \
+ /usr/include/glib-2.0/gio/gdbusobjectskeleton.h \
+ /usr/include/glib-2.0/gio/gdbusobjectproxy.h \
+ /usr/include/glib-2.0/gio/gdbusobjectmanager.h \
+ /usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h \
+ /usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h \
+ /usr/include/glib-2.0/gio/gdbusactiongroup.h \
+ /usr/include/glib-2.0/gio/giotypes.h \
+ /usr/include/glib-2.0/gio/gremoteactiongroup.h \
+ /usr/include/glib-2.0/gio/gmenumodel.h /usr/include/glib-2.0/gio/gmenu.h \
+ /usr/include/glib-2.0/gio/gmenuexporter.h \
+ /usr/include/glib-2.0/gio/gdbusmenumodel.h \
+ /usr/include/glib-2.0/gio/gnotification.h \
+ /usr/include/glib-2.0/gio/glistmodel.h \
+ /usr/include/glib-2.0/gio/gliststore.h \
  /usr/include/glib-2.0/gio/gio-autocleanups.h \
  /usr/include/gtk-2.0/gdk/gdkscreen.h /usr/include/cairo/cairo.h \
  /usr/include/cairo/cairo-version.h /usr/include/cairo/cairo-features.h \
@@ -242,20 +234,13 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
  /usr/include/pango-1.0/pango/pango-font.h \
  /usr/include/pango-1.0/pango/pango-coverage.h \
  /usr/include/pango-1.0/pango/pango-version-macros.h \
- /usr/include/pango-1.0/pango/pango-features.h /usr/include/harfbuzz/hb.h \
- /usr/include/harfbuzz/hb-blob.h /usr/include/harfbuzz/hb-common.h \
- /usr/include/harfbuzz/hb-buffer.h /usr/include/harfbuzz/hb-unicode.h \
- /usr/include/harfbuzz/hb-font.h /usr/include/harfbuzz/hb-face.h \
- /usr/include/harfbuzz/hb-set.h /usr/include/harfbuzz/hb-deprecated.h \
- /usr/include/harfbuzz/hb-map.h /usr/include/harfbuzz/hb-shape.h \
- /usr/include/harfbuzz/hb-shape-plan.h /usr/include/harfbuzz/hb-version.h \
+ /usr/include/pango-1.0/pango/pango-features.h \
  /usr/include/pango-1.0/pango/pango-types.h \
  /usr/include/pango-1.0/pango/pango-gravity.h \
  /usr/include/pango-1.0/pango/pango-matrix.h \
  /usr/include/pango-1.0/pango/pango-script.h \
  /usr/include/pango-1.0/pango/pango-language.h \
  /usr/include/pango-1.0/pango/pango-bidi-type.h \
- /usr/include/pango-1.0/pango/pango-direction.h \
  /usr/include/pango-1.0/pango/pango-break.h \
  /usr/include/pango-1.0/pango/pango-item.h \
  /usr/include/pango-1.0/pango/pango-context.h \
@@ -657,16 +642,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/glib/grand.h:
 
-/usr/include/glib-2.0/glib/grcbox.h:
-
-/usr/include/glib-2.0/glib/grefcount.h:
-
-/usr/include/glib-2.0/glib/grefstring.h:
-
-/usr/include/glib-2.0/glib/gmem.h:
-
-/usr/include/glib-2.0/glib/gmacros.h:
-
 /usr/include/glib-2.0/glib/gregex.h:
 
 /usr/include/glib-2.0/glib/gscanner.h:
@@ -732,8 +707,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 /usr/include/glib-2.0/gobject/glib-types.h:
 
 /usr/include/glib-2.0/gobject/genums.h:
-
-/usr/include/glib-2.0/gobject/glib-enumtypes.h:
 
 /usr/include/glib-2.0/gobject/gparamspecs.h:
 
@@ -803,10 +776,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gdataoutputstream.h:
 
-/usr/include/glib-2.0/gio/gdbusactiongroup.h:
-
-/usr/include/glib-2.0/gio/giotypes.h:
-
 /usr/include/glib-2.0/gio/gdbusaddress.h:
 
 /usr/include/glib-2.0/gio/gdbusauthobserver.h:
@@ -815,13 +784,7 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gdbuserror.h:
 
-/usr/include/glib-2.0/gio/gdbusinterface.h:
-
-/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:
-
 /usr/include/glib-2.0/gio/gdbusintrospection.h:
-
-/usr/include/glib-2.0/gio/gdbusmenumodel.h:
 
 /usr/include/glib-2.0/gio/gdbusmessage.h:
 
@@ -830,18 +793,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 /usr/include/glib-2.0/gio/gdbusnameowning.h:
 
 /usr/include/glib-2.0/gio/gdbusnamewatching.h:
-
-/usr/include/glib-2.0/gio/gdbusobject.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectmanager.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectproxy.h:
-
-/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:
 
 /usr/include/glib-2.0/gio/gdbusproxy.h:
 
@@ -863,11 +814,11 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gemblem.h:
 
-/usr/include/glib-2.0/gio/gfile.h:
-
 /usr/include/glib-2.0/gio/gfileattribute.h:
 
 /usr/include/glib-2.0/gio/gfileenumerator.h:
+
+/usr/include/glib-2.0/gio/gfile.h:
 
 /usr/include/glib-2.0/gio/gfileicon.h:
 
@@ -903,29 +854,15 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gioscheduler.h:
 
-/usr/include/glib-2.0/gio/glistmodel.h:
-
-/usr/include/glib-2.0/gio/gliststore.h:
-
 /usr/include/glib-2.0/gio/gloadableicon.h:
 
 /usr/include/glib-2.0/gio/gmemoryinputstream.h:
 
-/usr/include/glib-2.0/gio/gmemorymonitor.h:
-
 /usr/include/glib-2.0/gio/gmemoryoutputstream.h:
-
-/usr/include/glib-2.0/gio/gmenu.h:
-
-/usr/include/glib-2.0/gio/gmenumodel.h:
-
-/usr/include/glib-2.0/gio/gmenuexporter.h:
 
 /usr/include/glib-2.0/gio/gmount.h:
 
 /usr/include/glib-2.0/gio/gmountoperation.h:
-
-/usr/include/glib-2.0/gio/gnativesocketaddress.h:
 
 /usr/include/glib-2.0/gio/gnativevolumemonitor.h:
 
@@ -936,8 +873,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 /usr/include/glib-2.0/gio/gnetworkmonitor.h:
 
 /usr/include/glib-2.0/gio/gnetworkservice.h:
-
-/usr/include/glib-2.0/gio/gnotification.h:
 
 /usr/include/glib-2.0/gio/gpermission.h:
 
@@ -959,17 +894,15 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gproxyresolver.h:
 
-/usr/include/glib-2.0/gio/gremoteactiongroup.h:
-
 /usr/include/glib-2.0/gio/gresolver.h:
 
 /usr/include/glib-2.0/gio/gresource.h:
 
 /usr/include/glib-2.0/gio/gseekable.h:
 
-/usr/include/glib-2.0/gio/gsettings.h:
-
 /usr/include/glib-2.0/gio/gsettingsschema.h:
+
+/usr/include/glib-2.0/gio/gsettings.h:
 
 /usr/include/glib-2.0/gio/gsimpleaction.h:
 
@@ -985,15 +918,13 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gsimplepermission.h:
 
-/usr/include/glib-2.0/gio/gsimpleproxyresolver.h:
-
-/usr/include/glib-2.0/gio/gsocket.h:
-
 /usr/include/glib-2.0/gio/gsocketclient.h:
 
 /usr/include/glib-2.0/gio/gsocketconnectable.h:
 
 /usr/include/glib-2.0/gio/gsocketconnection.h:
+
+/usr/include/glib-2.0/gio/gsocket.h:
 
 /usr/include/glib-2.0/gio/gsocketcontrolmessage.h:
 
@@ -1003,11 +934,13 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gsrvtarget.h:
 
+/usr/include/glib-2.0/gio/gsimpleproxyresolver.h:
+
+/usr/include/glib-2.0/gio/gtask.h:
+
 /usr/include/glib-2.0/gio/gsubprocess.h:
 
 /usr/include/glib-2.0/gio/gsubprocesslauncher.h:
-
-/usr/include/glib-2.0/gio/gtask.h:
 
 /usr/include/glib-2.0/gio/gtcpconnection.h:
 
@@ -1033,9 +966,9 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/glib-2.0/gio/gtlsinteraction.h:
 
-/usr/include/glib-2.0/gio/gtlspassword.h:
-
 /usr/include/glib-2.0/gio/gtlsserverconnection.h:
+
+/usr/include/glib-2.0/gio/gtlspassword.h:
 
 /usr/include/glib-2.0/gio/gvfs.h:
 
@@ -1044,6 +977,42 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 /usr/include/glib-2.0/gio/gzlibcompressor.h:
 
 /usr/include/glib-2.0/gio/gzlibdecompressor.h:
+
+/usr/include/glib-2.0/gio/gdbusinterface.h:
+
+/usr/include/glib-2.0/gio/gdbusinterfaceskeleton.h:
+
+/usr/include/glib-2.0/gio/gdbusobject.h:
+
+/usr/include/glib-2.0/gio/gdbusobjectskeleton.h:
+
+/usr/include/glib-2.0/gio/gdbusobjectproxy.h:
+
+/usr/include/glib-2.0/gio/gdbusobjectmanager.h:
+
+/usr/include/glib-2.0/gio/gdbusobjectmanagerclient.h:
+
+/usr/include/glib-2.0/gio/gdbusobjectmanagerserver.h:
+
+/usr/include/glib-2.0/gio/gdbusactiongroup.h:
+
+/usr/include/glib-2.0/gio/giotypes.h:
+
+/usr/include/glib-2.0/gio/gremoteactiongroup.h:
+
+/usr/include/glib-2.0/gio/gmenumodel.h:
+
+/usr/include/glib-2.0/gio/gmenu.h:
+
+/usr/include/glib-2.0/gio/gmenuexporter.h:
+
+/usr/include/glib-2.0/gio/gdbusmenumodel.h:
+
+/usr/include/glib-2.0/gio/gnotification.h:
+
+/usr/include/glib-2.0/gio/glistmodel.h:
+
+/usr/include/glib-2.0/gio/gliststore.h:
 
 /usr/include/glib-2.0/gio/gio-autocleanups.h:
 
@@ -1071,32 +1040,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 
 /usr/include/pango-1.0/pango/pango-features.h:
 
-/usr/include/harfbuzz/hb.h:
-
-/usr/include/harfbuzz/hb-blob.h:
-
-/usr/include/harfbuzz/hb-common.h:
-
-/usr/include/harfbuzz/hb-buffer.h:
-
-/usr/include/harfbuzz/hb-unicode.h:
-
-/usr/include/harfbuzz/hb-font.h:
-
-/usr/include/harfbuzz/hb-face.h:
-
-/usr/include/harfbuzz/hb-set.h:
-
-/usr/include/harfbuzz/hb-deprecated.h:
-
-/usr/include/harfbuzz/hb-map.h:
-
-/usr/include/harfbuzz/hb-shape.h:
-
-/usr/include/harfbuzz/hb-shape-plan.h:
-
-/usr/include/harfbuzz/hb-version.h:
-
 /usr/include/pango-1.0/pango/pango-types.h:
 
 /usr/include/pango-1.0/pango/pango-gravity.h:
@@ -1108,8 +1051,6 @@ src/pos.o: ../src/pos.c /usr/include/gtk-2.0/gtk/gtk.h \
 /usr/include/pango-1.0/pango/pango-language.h:
 
 /usr/include/pango-1.0/pango/pango-bidi-type.h:
-
-/usr/include/pango-1.0/pango/pango-direction.h:
 
 /usr/include/pango-1.0/pango/pango-break.h:
 
